@@ -100,7 +100,7 @@ body * {
   animation: slide-in 0.3s forwards;
 }
 
-#switchbutton:hover {
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 

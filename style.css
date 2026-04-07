@@ -100,6 +100,10 @@ body * {
   animation: slide-in 0.3s forwards;
 }
 
+button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
 /* Links Section */
 ul {
   list-style: none;

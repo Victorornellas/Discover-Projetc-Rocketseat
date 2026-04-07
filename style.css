@@ -80,6 +80,8 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   top: 50%;
+
+  animation: slide-out 0.3s forwards;
 }
 #switch span {
   display: block;
@@ -94,8 +96,7 @@ body * {
 
 .light #switch button {
   background: white var(--switch-bg) no-repeat center;
-  right: 0;
-  left: inherit;
+
   animation: slide-in 0.3s forwards;
 }
 
@@ -189,5 +190,14 @@ footer {
   }
   to {
     left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
